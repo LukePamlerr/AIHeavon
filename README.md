@@ -2,7 +2,7 @@
 
 **AIHeavon** is a sleek, modern, and advanced AI chat interface that aggregates top-tier AI models from OpenRouter, Hugging Face, and more. It features a high-performance aesthetic design with a neon lime on black theme.
 
-![AIHeavon Interface]([https://placehold.co/1200x600/0a0a0a/ccff00?text=AIHeavon+Preview](https://cdn.discordapp.com/attachments/1473596099720773722/1476234330891358433/Screenshot_2026-02-25_070659.png?ex=69a061db&is=699f105b&hm=0aea1f32e701595bf8c8769badf8f89b66fc4a7bf8f30495060f05ca27faf6be)
+![AIHeavon Interface](https://cdn.discordapp.com/attachments/1473596099720773722/1476234330891358433/Screenshot_2026-02-25_070659.png?ex=69a061db&is=699f105b&hm=0aea1f32e701595bf8c8769badf8f89b66fc4a7bf8f30495060f05ca27faf6be)
 
 ## 🚀 Features
 
