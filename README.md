@@ -6,7 +6,7 @@
 
 ## 🚀 Features
 
--   **Multi-Model Support**: Access GPT-4, Claude 3, Mistral, Llama 3, Gemini, and more through OpenRouter.
+-   **Multi-Model Support**: Access GPT-4, Claude 3, Mistral, Llama 3, Gemini, and more through OpenRouter and HuggingFace.
 -   **Bring Your Own Key (BYOK)**: Securely use your own API keys. Keys are stored locally in your browser and never sent to our servers.
 -   **Free Model Access**: curated list of high-quality free models (requires OpenRouter account).
 -   **Chat History**: Persistent local chat history.
@@ -20,7 +20,7 @@
 -   **Frontend**: React 19, TypeScript, Vite
 -   **Styling**: Tailwind CSS v4, Lucide React (Icons)
 -   **State Management**: React Hooks & Local Storage
--   **API Integration**: OpenRouter API
+-   **API Integration**: OpenRouter API, HuggingFace API
 
 ## 📦 Getting Started
 
