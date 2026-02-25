@@ -1,73 +1,73 @@
-# React + TypeScript + Vite
+# AIHeavon 🌌
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**AIHeavon** is a sleek, modern, and advanced AI chat interface that aggregates top-tier AI models from OpenRouter, Hugging Face, and more. It features a high-performance aesthetic design with a neon lime on black theme.
 
-Currently, two official plugins are available:
+![AIHeavon Interface](https://placehold.co/1200x600/0a0a0a/ccff00?text=AIHeavon+Preview)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+-   **Multi-Model Support**: Access GPT-4, Claude 3, Mistral, Llama 3, Gemini, and more through OpenRouter.
+-   **Bring Your Own Key (BYOK)**: Securely use your own API keys. Keys are stored locally in your browser and never sent to our servers.
+-   **Free Model Access**: curated list of high-quality free models (requires OpenRouter account).
+-   **Chat History**: Persistent local chat history.
+-   **Markdown & Code Highlighting**: Beautiful rendering of code blocks with syntax highlighting.
+-   **Streaming Responses**: Real-time typing effect for all models.
+-   **Responsive Design**: Fully optimized for desktop and mobile.
+-   **Aesthetic UI**: Custom "Black & Lime" neon theme for a futuristic feel.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+-   **Frontend**: React 19, TypeScript, Vite
+-   **Styling**: Tailwind CSS v4, Lucide React (Icons)
+-   **State Management**: React Hooks & Local Storage
+-   **API Integration**: OpenRouter API
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📦 Getting Started
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Prerequisites
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+-   Node.js (v18 or higher)
+-   npm or yarn
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Installation
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/LukePamlerr/AIHeavon.git
+    cd AIHeavon
+    ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+3.  Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+4.  Open `http://localhost:5173` in your browser.
+
+## 🚀 Deployment
+
+Deploy your own instance of AIHeavon to Vercel with a single click.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLukePamlerr%2FAIHeavon)
+
+### Configuration
+
+AIHeavon is a client-side application. No environment variables are strictly required for build, but users must provide their own API keys within the application settings to chat.
+
+1.  Click the **Settings** icon in the sidebar.
+2.  Enter your **OpenRouter API Key** (Get one at [openrouter.ai](https://openrouter.ai/)).
+3.  (Optional) Customize the System Prompt.
+4.  Start chatting!
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
